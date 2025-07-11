@@ -1,0 +1,55 @@
+Removed Pin From Net: NetName=GND Pin=J2-01
+Removed Pin From Net: NetName=EL Pin=J2-02
+Removed Pin From Net: NetName=M Pin=J2-03
+Removed Pin From Net: NetName=Z/F Pin=J2-04
+Removed Pin From Net: NetName=GND Pin=J2-06
+Added Component: Designator=J1(VALCON_VH396-06S-010)
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/VH396-06S-010/Valcon/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Valcon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "VH396-06S-010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/VH396-06S-010/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/VH396-06S-010/Valcon/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J2(VALCON_VH396-06S-010)
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/VH396-06S-010/Valcon/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Valcon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "VH396-06S-010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/VH396-06S-010/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/VH396-06S-010/Valcon/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J3(VALCON_VH396-06S-010)
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/VH396-06S-010/Valcon/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Valcon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "VH396-06S-010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/VH396-06S-010/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/VH396-06S-010/Valcon/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VCC Pin=J1-01
+Added Pin To Net: NetName=GND Pin=J1-02
+Added Pin To Net: NetName=NetC6_2 Pin=J1-03
+Added Pin To Net: NetName=NetC5_2 Pin=J1-04
+Added Pin To Net: NetName=NetC3_2 Pin=J1-05
+Added Pin To Net: NetName=+5 Pin=J2-01
+Added Pin To Net: NetName=EL Pin=J2-02
+Added Pin To Net: NetName=M Pin=J2-03
+Added Pin To Net: NetName=Z/F Pin=J2-04
+Added Pin To Net: NetName=VR Pin=J2-05
+Added Pin To Net: NetName=GND Pin=J2-06
+Added Pin To Net: NetName=+5 Pin=J3-01
+Added Pin To Net: NetName=Ha Pin=J3-02
+Added Pin To Net: NetName=Hb Pin=J3-03
+Added Pin To Net: NetName=Hc Pin=J3-04
+Added Pin To Net: NetName=GND Pin=J3-05
+Added Pin To Net: NetName=VR Pin=R10-1
+Change Net Name : Old Net Name=NetC3_2 New Net Name=MA
+Change Net Name : Old Net Name=NetC5_2 New Net Name=MB
+Change Net Name : Old Net Name=NetC6_2 New Net Name=MC

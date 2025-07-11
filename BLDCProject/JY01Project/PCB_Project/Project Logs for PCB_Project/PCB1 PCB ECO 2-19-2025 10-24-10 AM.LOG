@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=NetC3_2 Pin=Q1-2
+Removed Pin From Net: NetName=NetC3_2 Pin=Q-3
+Removed Member From Class: ClassName=Sheet1 Member=Q
+Change Component Footprint: Designator=Q1 Old Footprint=TO254P1067X483X3124-3P New Footprint=TO220
+Change Component Comment : Designator=Q1 Old Comment=IRF3205PBF New Comment=IRF3709
+Change component parameters: Designator = "Q1" ("Q1"); Footprint = "TO254P1067X483X3124-3P"; UniqueID = "\AJTWEAKU" ("\AJTWEAKU")
+Added Component: Designator=Q2(TO220)
+Added Member To Class: ClassName=Sheet1 Member=Component Q2 IRF3709
+Added Member To Class: ClassName=Sheet1 Member=Component U1 IR2101

@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=NetD1_1 Pin=U1-1
+Removed Pin From Net: NetName=NetC3_2 Pin=U1-6
+Removed Pin From Net: NetName=NetR1_1 Pin=U1-7
+Removed Pin From Net: NetName=NetC3_1 Pin=U1-8
+Added Component: Designator=U1(DIL08)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/IR2101/Infineon+Technologies/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "IR2101-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Infineon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "IR2101"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "DIP-8 International Rectifier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/IR2101/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/IR2101/Infineon+Technologies/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetD1_1 Pin=U1-1
+Added Pin To Net: NetName=NetC3_2 Pin=U1-6
+Added Pin To Net: NetName=NetR1_1 Pin=U1-7
+Added Pin To Net: NetName=NetC3_1 Pin=U1-8

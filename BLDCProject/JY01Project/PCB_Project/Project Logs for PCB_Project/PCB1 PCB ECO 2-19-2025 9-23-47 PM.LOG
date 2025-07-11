@@ -1,0 +1,17 @@
+Change Component Comment : Designator=J2 Old Comment=CON4 New Comment=VH396-06S-010
+Add Pin To Net: Unknown Pin: Pin J1-31
+Add Pin To Net: Unknown Pin: Pin J1-32
+Add Pin To Net: Unknown Pin: Pin J1-33
+Add Pin To Net: Unknown Pin: Pin J1-34
+Add Pin To Net: Unknown Pin: Pin J1-35
+Added Pin To Net: NetName=GND Pin=J2-01
+Added Pin To Net: NetName=EL Pin=J2-02
+Added Pin To Net: NetName=M Pin=J2-03
+Added Pin To Net: NetName=Z/F Pin=J2-04
+Added Pin To Net: NetName=VRI Pin=J2-05
+Added Pin To Net: NetName=GND Pin=J2-06
+Add Pin To Net: Unknown Pin: Pin J3-31
+Add Pin To Net: Unknown Pin: Pin J3-32
+Add Pin To Net: Unknown Pin: Pin J3-33
+Add Pin To Net: Unknown Pin: Pin J3-34
+Add Pin To Net: Unknown Pin: Pin J3-35
