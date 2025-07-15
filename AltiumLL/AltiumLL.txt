@@ -1,0 +1,10 @@
+22022171@vnu.edu.vn
+Ducanh@18032004
+D:\Code\AltiumPCB\AltiumLL
+D:\Code\AltiumPCB\AltiumLL\SamacSys.SchLib
+D:\Code\AltiumPCB\AltiumLL\SamacSys.PcbLib
+0
+
+80
+True
+True

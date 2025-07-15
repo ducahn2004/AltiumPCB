@@ -1,0 +1,49 @@
+SS8050DBU
+CreateFootprintInLib, PF5102, 
+CreateRoundedPTH, 0.000, 0.000, 1.333, 1.333, 0.82, 1, 1, 0
+CreateRoundedPTH, -1.270, -1.270, 1.333, 1.333, 0.82, 2, 1, 0
+CreateRoundedPTH, -2.540, 0.000, 1.333, 1.333, 0.82, 3, 1, 0
+CreateAssemblyLine, -3.650, 0.205, 1.110, 0.205, 0.1
+CreateAssemblyLine, 1.110, 0.205, 1.110, 1.430, 0.1
+CreateAssemblyLine, 1.110, 1.430, -3.650, 1.430, 0.1
+CreateAssemblyLine, -3.650, 1.430, -3.650, 0.205, 0.1
+CreateCourtyardLine, -4.650, 2.430, 2.110, 2.430, 0.1
+CreateCourtyardLine, 2.110, 2.430, 2.110, -3.190, 0.1
+CreateCourtyardLine, 2.110, -3.190, -4.650, -3.190, 0.1
+CreateCourtyardLine, -4.650, -3.190, -4.650, 2.430, 0.1
+CreateSilkscreenLine, -3.650, 0.205, -3.650, 1.430, 0.2
+CreateSilkscreenLine, -3.650, 1.430, 1.110, 1.430, 0.2
+CreateSilkscreenLine, 1.110, 1.430, 1.110, 0.205, 0.2
+CreateAssemblyLine, -3.650, 0.190, -3.650, 0.190, 0.1
+CreateAssemblyArc, -1.27, 0.19, 2.38, -180.0, 0, 0.1
+CreateAssemblyLine, 1.110, 0.190, 1.110, 0.190, 0.1
+CreateSilkscreenLine, 1.600, 0.000, 1.600, 0.000, 0.2
+CreateSilkscreenArc, 1.65, 0, 0.05, 180.0, 360, 0.2
+CreateSilkscreenLine, 1.700, 0.000, 1.700, 0.000, 0.2
+CreateSilkscreenArc, 1.65, 0, 0.05, .0, 180, 0.2
+CreateSilkscreenLine, 1.600, 0.000, 1.700, 0.000, 0.2
+AssignSTEPmodel, SS8050DBU.stp, 180, 0, 90, 0.2800000011920929, 0.23000000417232513, 3.0399999618530273
+CreateComponentInLib, SS8050DBU, Transistor BJT NPN, Q?
+CreateLeftPin, 100, 0, 2, B, 100, 4, 0
+CreateBottomPin, 400, -200, 1, E, 100, 4, 0
+CreateTopPin, 400, 200, 3, C, 100, 4, 0
+DrawLine2, 300, 100, 300, -100, 0.2
+DrawLine2, 300, 50, 400, 150, 0.1
+DrawLine2, 300, -50, 400, -150, 0.1
+DrawLine2, 400, -150, 400, -200, 0.1
+DrawLine2, 400, 150, 400, 200, 0.1
+DrawLine2, 330, -100, 350, -80, 0.1
+DrawLine2, 350, -80, 370, -120, 0.1
+DrawLine2, 370, -120, 330, -100, 0.1
+DrawLine2, 100, 0, 300, 0, 0.1
+DrawCircle2, 350, 0, 158, 0.1
+AddParameter, Description, Transistor GP BJT NPN 25V 1.5A
+AddParameter, Datasheet Link, http://uk.rs-online.com/web/p/products/7390307
+AddParameter, Height, 5.33mm
+AddParameter, Manufacturer_Name, onsemi
+AddParameter, Manufacturer_Part_Number, SS8050DBU
+AddParameter, Mouser Part Number, 512-SS8050DBU
+AddParameter, Mouser Price/Stock, https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/SS8050DBU?qs=FF3lEoAMV0vTOAcfLhEPVg%3D%3D
+AddParameter, Arrow Part Number, SS8050DBU
+AddParameter, Arrow Price/Stock, https://www.arrow.com/en/products/ss8050dbu/on-semiconductor?region=nac
+AssignFootprint, PF5102, (2:2),(1:1),(3:3)

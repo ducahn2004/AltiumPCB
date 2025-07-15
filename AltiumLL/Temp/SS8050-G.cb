@@ -1,0 +1,44 @@
+SS8050-G
+CreateFootprintInLib, SOT95P240X115-3N, 
+CreateRectangularSMD, -1.1, 0.95, 1.1, 0.6, 0, 1, 0, 0
+CreateRectangularSMD, -1.1, -0.95, 1.1, 0.6, 0, 2, 0, 0
+CreateRectangularSMD, 1.1, 0, 1.1, 0.6, 0, 3, 0, 0
+CreateCourtyardLine, -1.9, 1.75, 1.9, 1.75, 0.05
+CreateCourtyardLine, 1.9, 1.75, 1.9, -1.75, 0.05
+CreateCourtyardLine, 1.9, -1.75, -1.9, -1.75, 0.05
+CreateCourtyardLine, -1.9, -1.75, -1.9, 1.75, 0.05
+CreateAssemblyLine, -0.65, 1.45, 0.65, 1.45, 0.1
+CreateAssemblyLine, 0.65, 1.45, 0.65, -1.45, 0.1
+CreateAssemblyLine, 0.65, -1.45, -0.65, -1.45, 0.1
+CreateAssemblyLine, -0.65, -1.45, -0.65, 1.45, 0.1
+CreateAssemblyLine, -0.65, 0.5, 0.3, 1.45, 0.1
+CreateSilkscreenLine, -0.2, 1.45, 0.2, 1.45, 0.2
+CreateSilkscreenLine, 0.2, 1.45, 0.2, -1.45, 0.2
+CreateSilkscreenLine, 0.2, -1.45, -0.2, -1.45, 0.2
+CreateSilkscreenLine, -0.2, -1.45, -0.2, 1.45, 0.2
+CreateSilkscreenLine, -1.65, 1.5, -0.55, 1.5, 0.2
+AssignSTEPmodel, SS8050-G.stp, 0, 0, 0, 0, 0, 0
+CreateComponentInLib, SS8050-G, Transistor BJT NPN, Q?
+CreateLeftPin, 100, 0, 1, B, 100, 4, 0
+CreateBottomPin, 400, -200, 2, E, 100, 4, 0
+CreateTopPin, 400, 200, 3, C, 100, 4, 0
+DrawLine2, 300, 100, 300, -100, 0.2
+DrawLine2, 300, 50, 400, 150, 0.1
+DrawLine2, 300, -50, 400, -150, 0.1
+DrawLine2, 400, -150, 400, -200, 0.1
+DrawLine2, 400, 150, 400, 200, 0.1
+DrawLine2, 330, -100, 350, -80, 0.1
+DrawLine2, 350, -80, 370, -120, 0.1
+DrawLine2, 370, -120, 330, -100, 0.1
+DrawLine2, 100, 0, 300, 0, 0.1
+DrawCircle2, 350, 0, 158, 0.1
+AddParameter, Description, Bipolar Transistors - BJT NPN TRANSISTOR 1.5A 40V
+AddParameter, Datasheet Link, https://datasheet.datasheetarchive.com/originals/distributors/DKDS-12/229454.pdf
+AddParameter, Height, 1.15mm
+AddParameter, Manufacturer_Name, Comchip Technology
+AddParameter, Manufacturer_Part_Number, SS8050-G
+AddParameter, Mouser Part Number, 750-SS8050-G
+AddParameter, Mouser Price/Stock, https://www.mouser.co.uk/ProductDetail/Comchip-Technology/SS8050-G?qs=LLUE9lz1YbcHg%252BWLMAtcrQ%3D%3D
+AddParameter, Arrow Part Number, SS8050-G
+AddParameter, Arrow Price/Stock, https://www.arrow.com/en/products/ss8050-g/comchip-technology?region=nac
+AssignFootprint, SOT95P240X115-3N, (1:1),(2:2),(3:3)

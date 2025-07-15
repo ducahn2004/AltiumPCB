@@ -1,0 +1,30 @@
+CL05B104KO5NNNC
+CreateFootprintInLib, CAPC1005X55N, 
+CreateRectangularSMD, -0.46, 0, 0.62, 0.6, 0, 1, 0, 90
+CreateRectangularSMD, 0.46, 0, 0.62, 0.6, 0, 2, 0, 90
+CreateCourtyardLine, -0.91, 0.46, 0.91, 0.46, 0.05
+CreateCourtyardLine, 0.91, 0.46, 0.91, -0.46, 0.05
+CreateCourtyardLine, 0.91, -0.46, -0.91, -0.46, 0.05
+CreateCourtyardLine, -0.91, -0.46, -0.91, 0.46, 0.05
+CreateAssemblyLine, -0.5, 0.25, 0.5, 0.25, 0.1
+CreateAssemblyLine, 0.5, 0.25, 0.5, -0.25, 0.1
+CreateAssemblyLine, 0.5, -0.25, -0.5, -0.25, 0.1
+CreateAssemblyLine, -0.5, -0.25, -0.5, 0.25, 0.1
+AssignSTEPmodel, CL05B104KO5NNNC.stp, 0, 0, 0, 0, 0, 0
+CreateComponentInLib, CL05B104KO5NNNC, Capacitor, C?
+CreateLeftPin, 200, 0, 1, 1, 200, 4, 0
+CreateRightPin, 300, 0, 2, 2, 200, 4, 0
+DrawLine2, 220, 100, 220, -100, 0.1
+DrawLine2, 280, 100, 280, -100, 0.1
+DrawLine2, 200, 0, 220, 0, 0.1
+DrawLine2, 280, 0, 300, 0, 0.1
+AddParameter, Description, Samsung Electro-Mechanics CL05B104KO5NNNC 100nF Multilayer Ceramic Capacitor MLCC 16V dc +/-10% Tolerance SMD
+AddParameter, Datasheet Link, https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2408147.pdf
+AddParameter, Height, 0.55mm
+AddParameter, Manufacturer_Name, SAMSUNG
+AddParameter, Manufacturer_Part_Number, CL05B104KO5NNNC
+AddParameter, Mouser Part Number, 187-CL05B104KO5NNNC
+AddParameter, Mouser Price/Stock, https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL05B104KO5NNNC?qs=hqM3L16%252BxlfT2SKOuAUq6Q%3D%3D
+AddParameter, Arrow Part Number, CL05B104KO5NNNC
+AddParameter, Arrow Price/Stock, https://www.arrow.com/en/products/cl05b104ko5nnnc/samsung-electro-mechanics?region=nac
+AssignFootprint, CAPC1005X55N, (1:1),(2:2)

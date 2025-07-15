@@ -1,0 +1,35 @@
+BC54-10PAS-QX
+CreateFootprintInLib, PBSS4310PASQX, 
+CreateRectangularSMD, -0.650, -0.850, 0.600, 0.400, 0, 1, 0, 90.000
+CreateRectangularSMD, 0.650, -0.850, 0.600, 0.400, 0, 2, 0, 90.000
+CreateRectangularSMD, 0.000, 0.975, 0.400, 0.350, 0, 3, 0, 0.000
+CreateRectangularSMD, 0.000, 0.250, 1.600, 1.100, 0, 4, 0, 0.000
+CreateAssemblyLine, -1.000, -1.000, 1.000, -1.000, 0.1
+CreateAssemblyLine, 1.000, -1.000, 1.000, 1.000, 0.1
+CreateAssemblyLine, 1.000, 1.000, -1.000, 1.000, 0.1
+CreateAssemblyLine, -1.000, 1.000, -1.000, -1.000, 0.1
+CreateCourtyardLine, -2.000, -2.150, 2.000, -2.150, 0.1
+CreateCourtyardLine, 2.000, -2.150, 2.000, 2.150, 0.1
+CreateCourtyardLine, 2.000, 2.150, -2.000, 2.150, 0.1
+CreateCourtyardLine, -2.000, 2.150, -2.000, -2.150, 0.1
+CreateSilkscreenLine, -0.650, -1.600, -0.650, -1.600, 0.1
+CreateSilkscreenArc, -0.65, -1.55, 0.05, -90.0, 90, 0.1
+CreateSilkscreenLine, -0.650, -1.500, -0.650, -1.500, 0.1
+CreateSilkscreenArc, -0.65, -1.55, 0.05, 90.0, 270, 0.1
+AssignSTEPmodel, BC54-10PAS-QX.stp, -90, 0, 180, 0.8600000143051147, 1.5, 1.1299999952316284
+CreateComponentInLib, BC54-10PAS-QX, Transistor BJT NPN, Q?
+DrawRectangle, 200, 100, 700, -200, 0.1
+CreateLeftPin, 200, 0, 1, B, 200, 4, 1
+CreateLeftPin, 200, -100, 2, E, 200, 4, 1
+CreateRightPin, 700, 0, 3, C_1, 200, 4, 1
+CreateRightPin, 700, -100, 4, C_2, 200, 4, 1
+AddParameter, Description, BC54xPAS-Q series - 45 V, 1 A PNP medium power transistors@en-us
+AddParameter, Datasheet Link, https://assets.nexperia.com/documents/data-sheet/BC54XPAS-Q_SER.pdf
+AddParameter, Height, 0.65mm
+AddParameter, Manufacturer_Name, Nexperia
+AddParameter, Manufacturer_Part_Number, BC54-10PAS-QX
+AddParameter, Mouser Part Number, 771-BC54-10PAS-QX
+AddParameter, Mouser Price/Stock, https://www.mouser.co.uk/ProductDetail/Nexperia/BC54-10PAS-QX?qs=ulEaXIWI0c9y9iSjD%2FgPjQ%3D%3D
+AddParameter, Arrow Part Number, 
+AddParameter, Arrow Price/Stock, 
+AssignFootprint, PBSS4310PASQX, (1:1),(2:2),(3:3),(4:4)

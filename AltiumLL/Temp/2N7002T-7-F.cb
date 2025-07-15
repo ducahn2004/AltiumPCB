@@ -1,0 +1,31 @@
+2N7002T-7-F
+CreateFootprintInLib, SOT50P160X90-3N, 
+CreateRectangularSMD, -0.75, 0.5, 1, 0.4, 0, 1, 0, 0
+CreateRectangularSMD, -0.75, -0.5, 1, 0.4, 0, 2, 0, 0
+CreateRectangularSMD, 0.75, 0, 1, 0.4, 0, 3, 0, 0
+CreateCourtyardLine, -1.5, 1.1, 1.5, 1.1, 0.05
+CreateCourtyardLine, 1.5, 1.1, 1.5, -1.1, 0.05
+CreateCourtyardLine, 1.5, -1.1, -1.5, -1.1, 0.05
+CreateCourtyardLine, -1.5, -1.1, -1.5, 1.1, 0.05
+CreateAssemblyLine, -0.4, 0.8, 0.4, 0.8, 0.1
+CreateAssemblyLine, 0.4, 0.8, 0.4, -0.8, 0.1
+CreateAssemblyLine, 0.4, -0.8, -0.4, -0.8, 0.1
+CreateAssemblyLine, -0.4, -0.8, -0.4, 0.8, 0.1
+CreateAssemblyLine, -0.4, 0.3, 0.1, 0.8, 0.1
+CreateSilkscreenLine, -1.25, 0.95, -0.25, 0.95, 0.2
+AssignSTEPmodel, 2N7002T-7-F.stp, 0, 0, 0, 0, 0, 0
+CreateComponentInLib, 2N7002T-7-F, Undefined or Miscellaneous, U?
+DrawRectangle, 200, 100, 600, -200, 0.1
+CreateLeftPin, 200, 0, 1, G, 200, 4, 1
+CreateLeftPin, 200, -100, 2, S, 200, 4, 1
+CreateRightPin, 600, 0, 3, D, 200, 4, 1
+AddParameter, Description, TRANSISTOR
+AddParameter, Datasheet Link, https://www.diodes.com//assets/Datasheets/ds30301.pdf
+AddParameter, Height, 0.9mm
+AddParameter, Manufacturer_Name, Diodes Incorporated
+AddParameter, Manufacturer_Part_Number, 2N7002T-7-F
+AddParameter, Mouser Part Number, 621-2N7002T-F
+AddParameter, Mouser Price/Stock, https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/2N7002T-7-F?qs=CUVYu8J7f7JkIu0JCUirBA%3D%3D
+AddParameter, Arrow Part Number, 2N7002T-7-F
+AddParameter, Arrow Price/Stock, https://www.arrow.com/en/products/2n7002t-7-f/diodes-incorporated?region=nac
+AssignFootprint, SOT50P160X90-3N, (1:1),(2:2),(3:3)

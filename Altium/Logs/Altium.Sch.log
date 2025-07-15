@@ -1,0 +1,5 @@
+12:16:57.863 [Info] Altium.Sch.Compilation.Compiler.DynamicCompilerChangesWatcher: Remove Free Documents 
+12:16:57.898 [Info] Altium.Sch.Compilation.Compiler.SuspendController: Continuous compilation suspended ([GLOBAL]): 1 
+12:16:58.488 [Info] Altium.Sch.Compilation.Compiler.SuspendController: Continuous compilation resumed ([GLOBAL]): 0 
+12:16:59.113 [Info] Altium.Sch.DataModel.SchDataModel: Export Object C:\Users\edoph\AppData\Roaming\Altium\Altium Designer {87C73901-D66A-4171-AF14-8FD245E8DC8C}\Advsch.MMsdft (objects:38) 
+12:16:59.261 [Info] Altium.Sch.DataModel.SchDataModel: Export Object C:\Users\edoph\AppData\Roaming\Altium\Altium Designer {87C73901-D66A-4171-AF14-8FD245E8DC8C}\Advsch.dft (objects:38) 

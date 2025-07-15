@@ -1,0 +1,83 @@
+CP2102N-A02-GQFN28R
+CreateFootprintInLib, QFN50P500X500X80-29N-D, 
+CreateRectangularSMD, -2.35, 1.5, 1, 0.3, 0, 1, 0, 0
+CreateRectangularSMD, -2.35, 1, 1, 0.3, 0, 2, 0, 0
+CreateRectangularSMD, -2.35, 0.5, 1, 0.3, 0, 3, 0, 0
+CreateRectangularSMD, -2.35, 0, 1, 0.3, 0, 4, 0, 0
+CreateRectangularSMD, -2.35, -0.5, 1, 0.3, 0, 5, 0, 0
+CreateRectangularSMD, -2.35, -1, 1, 0.3, 0, 6, 0, 0
+CreateRectangularSMD, -2.35, -1.5, 1, 0.3, 0, 7, 0, 0
+CreateRectangularSMD, -1.5, -2.35, 1, 0.3, 0, 8, 0, 90
+CreateRectangularSMD, -1, -2.35, 1, 0.3, 0, 9, 0, 90
+CreateRectangularSMD, -0.5, -2.35, 1, 0.3, 0, 10, 0, 90
+CreateRectangularSMD, 0, -2.35, 1, 0.3, 0, 11, 0, 90
+CreateRectangularSMD, 0.5, -2.35, 1, 0.3, 0, 12, 0, 90
+CreateRectangularSMD, 1, -2.35, 1, 0.3, 0, 13, 0, 90
+CreateRectangularSMD, 1.5, -2.35, 1, 0.3, 0, 14, 0, 90
+CreateRectangularSMD, 2.35, -1.5, 1, 0.3, 0, 15, 0, 0
+CreateRectangularSMD, 2.35, -1, 1, 0.3, 0, 16, 0, 0
+CreateRectangularSMD, 2.35, -0.5, 1, 0.3, 0, 17, 0, 0
+CreateRectangularSMD, 2.35, 0, 1, 0.3, 0, 18, 0, 0
+CreateRectangularSMD, 2.35, 0.5, 1, 0.3, 0, 19, 0, 0
+CreateRectangularSMD, 2.35, 1, 1, 0.3, 0, 20, 0, 0
+CreateRectangularSMD, 2.35, 1.5, 1, 0.3, 0, 21, 0, 0
+CreateRectangularSMD, 1.5, 2.35, 1, 0.3, 0, 22, 0, 90
+CreateRectangularSMD, 1, 2.35, 1, 0.3, 0, 23, 0, 90
+CreateRectangularSMD, 0.5, 2.35, 1, 0.3, 0, 24, 0, 90
+CreateRectangularSMD, 0, 2.35, 1, 0.3, 0, 25, 0, 90
+CreateRectangularSMD, -0.5, 2.35, 1, 0.3, 0, 26, 0, 90
+CreateRectangularSMD, -1, 2.35, 1, 0.3, 0, 27, 0, 90
+CreateRectangularSMD, -1.5, 2.35, 1, 0.3, 0, 28, 0, 90
+CreateRectangularSMD, 0, 0, 3.35, 3.35, 0, 29, 0, 90
+CreateCourtyardLine, -3.1, 3.1, 3.1, 3.1, 0.05
+CreateCourtyardLine, 3.1, 3.1, 3.1, -3.1, 0.05
+CreateCourtyardLine, 3.1, -3.1, -3.1, -3.1, 0.05
+CreateCourtyardLine, -3.1, -3.1, -3.1, 3.1, 0.05
+CreateAssemblyLine, -2.5, 2.5, 2.5, 2.5, 0.1
+CreateAssemblyLine, 2.5, 2.5, 2.5, -2.5, 0.1
+CreateAssemblyLine, 2.5, -2.5, -2.5, -2.5, 0.1
+CreateAssemblyLine, -2.5, -2.5, -2.5, 2.5, 0.1
+CreateAssemblyLine, -2.5, 2, -2, 2.5, 0.1
+CreateSilkscreenCircle, -2.85, 2.25, 0.125, 0.25
+AssignSTEPmodel, CP2102N-A02-GQFN28R.stp, 0, 0, 0, 0, 0, 0
+CreateComponentInLib, CP2102N-A02-GQFN28R, Integrated Circuit, IC?
+DrawRectangle, 200, 500, 1700, -1200, 0.1
+CreateLeftPin, 200, 0, 1, DCD, 200, 4, 1
+CreateLeftPin, 200, -100, 2, RI_/_CLK, 200, 4, 1
+CreateLeftPin, 200, -200, 3, GND_1, 200, 4, 1
+CreateLeftPin, 200, -300, 4, D+, 200, 4, 1
+CreateLeftPin, 200, -400, 5, D-, 200, 4, 1
+CreateLeftPin, 200, -500, 6, VDD, 200, 4, 1
+CreateLeftPin, 200, -600, 7, VREGIN, 200, 4, 1
+CreateBottomPin, 600, -1200, 8, VBUS, 200, 4, 1
+CreateBottomPin, 700, -1200, 9, RSTB, 200, 4, 1
+CreateBottomPin, 800, -1200, 10, NC, 200, 4, 1
+CreateBottomPin, 900, -1200, 11, SUSPENDB, 200, 4, 1
+CreateBottomPin, 1000, -1200, 12, SUSPEND, 200, 4, 1
+CreateBottomPin, 1100, -1200, 13, CHREN, 200, 4, 1
+CreateBottomPin, 1200, -1200, 14, CHR1, 200, 4, 1
+CreateRightPin, 1700, 0, 21, GPIO.5, 200, 4, 1
+CreateRightPin, 1700, -100, 20, GPIO.6, 200, 4, 1
+CreateRightPin, 1700, -200, 19, GPIO.0_/_TXT, 200, 4, 1
+CreateRightPin, 1700, -300, 18, GPIO.1_/_RXT, 200, 4, 1
+CreateRightPin, 1700, -400, 17, GPIO.2_/_RS485, 200, 4, 1
+CreateRightPin, 1700, -500, 16, GPIO.3_/_WAKEUP, 200, 4, 1
+CreateRightPin, 1700, -600, 15, CHR0, 200, 4, 1
+CreateTopPin, 600, 500, 29, GND_2, 200, 4, 1
+CreateTopPin, 700, 500, 28, DTR, 200, 4, 1
+CreateTopPin, 800, 500, 27, DSR, 200, 4, 1
+CreateTopPin, 900, 500, 26, TXD, 200, 4, 1
+CreateTopPin, 1000, 500, 25, RXD, 200, 4, 1
+CreateTopPin, 1100, 500, 24, RTS, 200, 4, 1
+CreateTopPin, 1200, 500, 23, CTS, 200, 4, 1
+CreateTopPin, 1300, 500, 22, GPIO.4, 200, 4, 1
+AddParameter, Description, USB Interface IC USB to UART bridge - QFN28
+AddParameter, Datasheet Link, https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf
+AddParameter, Height, 0.8mm
+AddParameter, Manufacturer_Name, Silicon Labs
+AddParameter, Manufacturer_Part_Number, CP2102N-A02-GQFN28R
+AddParameter, Mouser Part Number, 634-CP2102NA02QFN28R
+AddParameter, Mouser Price/Stock, https://www.mouser.co.uk/ProductDetail/Silicon-Labs/CP2102N-A02-GQFN28R?qs=u16ybLDytRag4qKvSH3fTw%3D%3D
+AddParameter, Arrow Part Number, CP2102N-A02-GQFN28R
+AddParameter, Arrow Price/Stock, https://www.arrow.com/en/products/cp2102n-a02-gqfn28r/silicon-labs?region=nac
+AssignFootprint, QFN50P500X500X80-29N-D, (1:1),(2:2),(3:3),(4:4),(5:5),(6:6),(7:7),(8:8),(9:9),(10:10),(11:11),(12:12),(13:13),(14:14),(21:21),(20:20),(19:19),(18:18),(17:17),(16:16),(15:15),(29:29),(28:28),(27:27),(26:26),(25:25),(24:24),(23:23),(22:22)
